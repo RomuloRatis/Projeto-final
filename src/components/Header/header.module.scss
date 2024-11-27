@@ -8,10 +8,11 @@ header{
 }
 
 .boxLogo{
-    width: 23vw;
+    width: 15vw;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    
 
     h1{
         color: white;
@@ -35,21 +36,29 @@ header{
 }
 
 .boxInput{
-    width: 17vw;
+    width: 17%;
     margin-right: 20px;
     height: 6vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-radius: 15px;
+    border-radius: 20px;
+    border: solid white;
     input{
-        outline: none;
         background-color: transparent;
         border: none;
-        color: white;
-        font-size: 15px;
+        width: 60%;
+        height: 5vh;
+
         &::placeholder{
             color: white;
+            font-size: 20px;
         }
     }
+
+    button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
 }

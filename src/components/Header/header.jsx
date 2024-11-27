@@ -1,7 +1,7 @@
 import logo from "../../assets/Images/logo.png"
 import search from "../../assets/Images/search.png"
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
-import Inicio from '../../Pages/Inicio/Inicio'
+import Inicio from '../../Pages/Inicio/inicio'
 import Doados from '../../Pages/Doados/Doados'
 import QueroDoar from '../../Pages/QueroDoar/QueroDoar'
 import S from './header.module.scss'
@@ -28,9 +28,9 @@ export default function header() {
     </header>
     <Routes>
       <Route>
-          <Route path='/' eLement={<Inicio/>}/>
-          <Route path='/Doados' eLement={<Doados/>}/>
-          <Route path='/QueroDoar' eLement={<QueroDoar/>}/>
+          <Route path='/'element={<Inicio/>}/>
+          <Route path='/Doados'element={<Doados/>}/>
+          <Route path='/QueroDoar'element={<QueroDoar/>}/>
       </Route>
     </Routes>
     </BrowserRouter>
