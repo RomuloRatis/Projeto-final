@@ -8,15 +8,22 @@ header{
 }
 
 .boxLogo{
-    width: 15vw;
+    width: 25vw;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    padding-left: 20px;
+    position: relative;
+    bottom: 14px;
     
 
     h1{
         color: white;
+        padding-left: 15px;
         font-size: 25px;
+        position: relative;
+        top: 12px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
     }
 }
 
@@ -30,6 +37,8 @@ header{
         a{
             color: white;
             font-size: 20px;
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
         }
     }
 
@@ -45,20 +54,104 @@ header{
     border-radius: 20px;
     border: solid white;
     input{
+        outline: none;
         background-color: transparent;
         border: none;
-        width: 60%;
+        width: 12vw;
         height: 5vh;
+        padding-left: 6px;
 
         &::placeholder{
             color: white;
-            font-size: 20px;
+            font-size: 1.1vw;
         }
     }
 
-    button {
+    button{
         background-color: transparent;
         border: none;
         cursor: pointer;
       }
+
 }
+
+@media(max-width: 1213px){
+        
+        .boxLogo{
+            h1{
+                font-size: 1.7vw;
+            }
+            img{
+                width: 5vw;
+            }
+            }
+    
+        .boxMenu{
+            width: 42vw;
+            ul{
+               font-size: 1.6vw;
+               a{
+                font-size: 1.7vw;
+               }
+            }
+        }
+    
+       .boxInput{
+        width: 20%;
+        height: 5vh;
+        input{
+            width: 15vw;
+            height: 5vh;
+            &::placeholder{
+                font-size: 1.4vw;
+            }
+        }
+       }
+    }
+
+    @media(max-width: 840px){
+
+        header{
+        height: 25vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .boxLogo{
+        width: 80%;
+        justify-content: center;
+        h1{
+        font-size: 28px;
+        }
+        img{
+        width: 50px;
+        }
+    }
+
+    .boxMenu{
+        width: 100%;
+        ul{
+        font-size: 22px;
+        justify-content: space-evenly;
+        a{
+            font-size: 17px;
+           }
+        }
+    }
+
+    .boxInput{
+        width: 230px;
+        height: 4vh;
+        margin-right: 0px;
+        input{
+            width: 40vw;
+            height: 7vh;
+            &::placeholder{
+                font-size: 15px;
+            }
+        }
+        img{padding-right: 10px;}
+       }
+}
+
+    

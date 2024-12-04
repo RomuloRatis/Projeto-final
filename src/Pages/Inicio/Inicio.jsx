@@ -26,7 +26,7 @@ export default function inicio(){
                 </article>
                 <article>
                     <img src={transform} alt="" />
-                    <p>Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas..</p>
+                    <p>Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas.</p>
                 </article>
                 <article>
                     <img src={balance} alt="" />

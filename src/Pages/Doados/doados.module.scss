@@ -1,0 +1,56 @@
+
+.boxDoados{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    h2{
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+}
+
+.boxBooks{
+    width: 85vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    article{
+        border: solid 3px #005695;
+        width: 13vw;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 15px;
+        font-family: "Inter", sans-serif;
+        h3{
+            font-weight: 400;
+        }
+    }
+
+}
+
+@media(max-width: 1150px){
+    .boxDoados{
+      height: 80vh;
+    }
+
+    .boxBooks{
+        article{
+            width: 220px;
+        }
+    }
+
+}
+
+@media(max-width: 550px){
+
+    .boxBooks{
+        flex-wrap: wrap;
+    }
+}

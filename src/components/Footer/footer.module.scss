@@ -1,7 +1,4 @@
 
-footer{
-    border: solid 2px red;
-}
 
 .boxSocial{
 
@@ -14,10 +11,10 @@ footer{
     padding-left: 50px;
     padding-right: 50px;
     h3{
-        font-size: 25px;
+        font-size: 22px;
+        font-family: "Inter", sans-serif;
     }
     nav{
-        border: solid 2px yellow;
         width: 13vw;
         display: flex;
         align-items: center;
@@ -27,9 +24,30 @@ footer{
 
 .boxEnd{
     background-color: #232020;
-    height: 3vw;
+    height: 3vh;
+    font-family: "Inter", sans-serif;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media(max-width: 1000px){
+
+    .boxSocial{
+        nav{
+            width: 230px;
+        }
+    }
+}
+
+@media(max-width: 585px){
+    .boxSocial{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .boxEnd{
+        text-align: center;
+        height: 6vh;
+    }
 }
