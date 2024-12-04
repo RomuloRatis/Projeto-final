@@ -17,19 +17,19 @@ export default function inicio(){
             </section>
             <section className={S.boxCard}>
                 <article>
-                    <img src={ciclo} alt="" />
+                    <img src={ciclo} alt="Imagem ciclo" />
                     <p> Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</p>
                 </article>
                 <article>
-                    <img src={reading} alt="" />
+                    <img src={reading} alt="Imagem de leitura" />
                     <p>Estimula o hábito da leitura e o aprendizado contínuo.</p>
                 </article>
                 <article>
-                    <img src={transform} alt="" />
+                    <img src={transform} alt="Imagem de transformação do grupo" />
                     <p>Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas.</p>
                 </article>
                 <article>
-                    <img src={balance} alt="" />
+                    <img src={balance} alt="Imagem de Balança" />
                     <p>Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.</p>
                 </article>
             </section>
